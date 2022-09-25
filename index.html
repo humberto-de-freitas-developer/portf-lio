@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cs/Style.css">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./cs/sendemail.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Portfolio</title>
+    <title>HOMOLOG</title>
 </head>
 
 <body>
@@ -25,21 +26,26 @@
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#servico">Serviços</a></li>
                     <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#contato">Contato</a></li>
                     <li><a href="#sobre">Sobre mim</a></li>
                 </ul>
 
                 <div class="C-icon">
-                    <span class="icon">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </span>
-                    <span class="icon">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </span>
-                    <span class="icon">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </span>
-
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <span class="icon">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </span>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <span class="icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </span>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <span class="icon">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </span>
+                    </a>
                 </div>
                 <!--icon-->
             </div>
@@ -91,16 +97,18 @@
             <h1>Sobre mim</h1>
             <h4>Desenvolvedor Full Stack & <span> Computer Maintenance Technician</span></h4>
             <p>
-                <br> A minha história com a programação se iniciou em 2016,
-                <br> onde ingressei no curso de Ciências da Computação e
-                <br> fui até o 7 período, questões financeiras impediram de prosseguir.
-                <br> Mas continuei atuando na área da tecnologia durante esses anos como
-                <br> suporte técnico de informática, cuidava da parte de rede, manutenção
-                <br> de computadores, servidores, e etc. Até que resolvi retornar a área onde
-                <br> se iniciou tudo, a programação, estou ainda em processo de desenvolvimento
-                <br> ou seja, aprendizado, cada dia venho aprendendo mais sobre diversos assuntos
-                <br> e conhecendo novas tecnologias, eu sei que não é fácil esse caminho mas eu também sei
-                <br> que desistir não faz parte das ações do meu cotidiano!
+                A minha história com a programação se iniciou em 2015, onde ingressei no curso de Ciências da Computação
+                e cursei até o 7 período, questões financeiras impediram de prosseguir.<br>
+                Mas continuei atuando na área da tecnologia durante esses anos até os dias atuais, como suporte técnico
+                de informática, onde aprendi a realizar manutenção em computadores, notebooks, rede estruturada,
+                cabeamento lógico e diversos outros serviços.<br> Até que resolvi retornar a área onde tudo se iniciou,
+                a
+                programação, estou ainda em processo desenvolvimento, ou seja, aprendizado, cada dia venho aprendendo
+                mais sobre diversos assuntos e conhecendo novas tecnologias, pretendo atuar como desenvolvedor Full
+                Stack e também como técnico em manutenção de informática. <br>Eu sei que não é fácil esse caminho, mas
+                eu
+                também sei, que desistir não faz parte das ações do meu cotidiano!
+
             </p>
             <!--<button class="btn">Saber mais</button>-->
 
@@ -121,7 +129,7 @@
                 <h3>Manutenção na área de Tecnologia</h3>
                 <h4>Hardware
                     <br> Vamos atuar na manutenção de computadores
-                    <br> notebooks, rede estruturada, cabeamento lógico e 
+                    <br> notebooks, rede estruturada, cabeamento lógico e
                     <br> diversos outros serviços tecnológicos.
                 </h4>
             </div>
@@ -141,7 +149,7 @@
                     <br> do papel e colocar na internet
                     <br> seu site, portfólio, blog, futuramente
                     <br> e-ecommerce!
-                    <br> Utilizando tecnologias atuais 
+                    <br> Utilizando tecnologias atuais
                     <br> para dar vida ao seu projeto!
                 </h4>
             </div>
@@ -149,11 +157,11 @@
                 <img src="./assets/img/desktop.png" alt="desktop">
                 <h3>Implementação de ferramentas</h3>
                 <h4>Software - Sistema de Chamados.
-                    <br> Sistema de chamado open source 
+                    <br> Sistema de chamado open source
                     <br> mundialmente conhecido, GLPI,
                     <br> podemos implementar ele em sua
                     <br> empresa, em diversos SO(sistemas operacionais)
-                    <br> seja ele virtualizado ou físico. 
+                    <br> seja ele virtualizado ou físico.
                     <br> Abra chamados, tenha o controle de todos
                     <br> serviços prestados pela TI em sua empresa
                     <br> relatórios, gráficos e muito mais!
@@ -196,18 +204,47 @@
     </section>
     <!--C-projetos-->
 
-    <section class="C-rodapé">
-        <h1>Nos envie uma mensagem para a gente fechar o projeto</h1>
-        <form>
-            <input type="email" name="email" id="email" placeholder="Envie uma mensagem">
-            <input type="submit" name="submit" value="Enviar">
-        </form>
-        <footer>
-            <p>Criado por <a href="#">Humberto Neto</a> | Todos os direitos reservado 2022</p>
-        </footer>
-    </section>
+    <!--Contato-->
+    
+    <div class="container-cont">
+        <div id="contato">
+            <h1>Contato</h1>
+        </div>
+        <form action="https://formsubmit.co/ac44fbf547ba41da2f5ae60a0f2f9d62" method="POST">
+            <label for="nomep">Nome</label>
+            <input type="nomep" name="nome" id="nomep" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" required>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>    
+       </form>
+    </div>
+   
+    <!--Contato-->
+
+
     <!--C-rodapé-->
-  
+
+    <footer class="C-rodapé">
+        <a href="https://api.whatsapp.com/send?phone=&text=Oi, gostaria%20de%20mais%20informações%20sobre%20seus%20serviços"
+            target="_blank" style="position:fixed;bottom:20px;right:30px;">
+            <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512"
+                xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z"
+                    fill="#4CAF50" />
+                <path
+                    d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"
+                    fill="#FAFAFA" />
+            </svg>
+        </a>
+    </footer>
+
 
     <script src="./js/script.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
@@ -217,14 +254,14 @@
     </script>
 
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="./js/script.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
 </body>
 
