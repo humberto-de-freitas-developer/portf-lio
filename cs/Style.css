@@ -634,6 +634,25 @@ input[type='nomep']{
     text-decoration: underline;
 
 }
+.ftco-footer-widget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .ftco-footer-widget p{
+        color:white;
+    }
+    .ftco-footer-widget strong{
+        color:#00804b;
+        
+    }
+    .footer-h2{
+        color:#00804b;
+    }
+    .footer-img span{
+        color:white;
+    }
+    
 
 @media only screen and (max-width: 414px) {
 
