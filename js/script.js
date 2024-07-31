@@ -35,7 +35,7 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Desenvolvedor",  "Freelancer", "Técnico em Informática"],
+         strings:["Gestor de Tecnologia da Informação",  "Supervisor de TI", "Suporte técnico"],
          typeSpeed:100,
          backSpeed:60,
          loop:true

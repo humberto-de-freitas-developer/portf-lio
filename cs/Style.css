@@ -285,7 +285,7 @@ span {
 }
 
 .Sobre-mim span {
-    color: #FD0BF3;
+    color: #1E90FF;
 }
 
 .Sobre-mim p {
@@ -578,7 +578,7 @@ input[type='nomep']{
 .C-rodapé {
     width: 100%;
     background-color: #383535;
-    padding: 50px;
+    padding: 15px;
 }
 
 .C-rodapé h1 {
